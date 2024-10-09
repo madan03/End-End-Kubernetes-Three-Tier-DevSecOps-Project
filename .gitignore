@@ -1,0 +1,49 @@
+# Node.js specific files
+node_modules/
+npm-debug.log
+yarn-error.log
+.env
+
+# Build outputs
+dist/
+build/
+
+# Logs
+logs
+*.log
+pids
+*.pid
+*.seed
+*.pid.lock
+
+# Dependency directories
+node_modules/
+jspm_packages/
+
+# Terraform specific files
+**/.terraform/*
+*.tfstate
+*.tfstate.*
+crash.log
+*.tfplan
+.terraformrc
+.terraform.rc
+terraform.tfvars
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# IDE and editor specific files
+.vscode/
+.idea/
+
+# MongoDB specific files
+*.lock
+data/db/
+dump/
+
+# React specific files
+node_modules/
+build/
+.env
