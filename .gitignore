@@ -29,7 +29,7 @@ crash.log
 .terraformrc
 .terraform.rc
 terraform.tfvars
-.terraform.lock.hcl
+**/.terraform.lock.hcl/*
 
 # OS generated files
 .DS_Store
